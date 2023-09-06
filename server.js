@@ -57,6 +57,9 @@ app.post("/tripay-test", async (req, res) => {
       });
   });
 
+  app.get('/get', (req, res) => {
+    res.send('Hellow World!');
+});
 
 
 
